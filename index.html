@@ -12,7 +12,9 @@
 <body>
 
     <div class="container">
-        <!-- Always 2  -->
+
+
+        <!-- Half-half, all devices -->
         <div class="row">
             <div class="col">
                 <img src="dogSmile.jpg" alt="dog smiling" class="w-100">
@@ -21,12 +23,52 @@
                 <img src="dogSmile.jpg" alt="dog smiling" class="w-100">
             </div>
         </div>
+
+
+        <!-- Mobile full-screen, Laptop half-half -->
         <div class="row">
             <div class="col-12 col-md-6">
                 <img src="dogSmile.jpg" alt="dog smiling" class="w-100">
             </div>
             <div class="col-12 col-md-6">
                 <img src="dogSmile.jpg" alt="dog smiling" class="w-100">
+            </div>
+        </div>
+
+
+        <!-- Mobile full-screen, Tablet half-half, Laptop quarters  -->
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4">
+                <img src="dogSmile.jpg" alt="dog smiling" class="w-100">
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <img src="dogSmile.jpg" alt="dog smiling" class="w-100">
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <img src="dogSmile.jpg" alt="dog smiling" class="w-100">
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <img src="dogSmile.jpg" alt="dog smiling" class="w-100">
+            </div>
+        </div>
+
+
+        <!-- Nesting rows -->
+        <div class="row">
+            <div class="col-sm-3">
+                <!-- No nesting here -->
+            </div>
+            <div class="col-sm-9">
+                <!-- Here we nest two rows -->
+                <div class="row">
+                    <!-- A first one with two cols -->
+                    <div class="col-sm-6"></div>
+                    <div class="col-sm-6"></div>
+                </div>
+                <div class="row">
+                    <!-- A second one with just one col -->
+                    <div class="col-sm-12"></div>
+                </div>
             </div>
         </div>
     </div>
